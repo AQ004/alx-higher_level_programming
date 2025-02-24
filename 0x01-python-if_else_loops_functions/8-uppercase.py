@@ -2,7 +2,7 @@
 def uppercase(str):
     capatilize = ord('A') - ord('a')
     for i in str:
-        if i >= ord('a') and i <= ord('z'):
+        if ord(i) >= ord('a') and ord(i) <= ord('z'):
             str1 = ord(i) + capatilize
         else:
             str1 = ord(i)
